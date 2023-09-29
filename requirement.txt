@@ -1,0 +1,39 @@
+Libraries needed (fraud detection): 
+
+
+EDA, CLEANING & PROCESSING:
+
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+import warnings
+# Suppress all warnings
+warnings.filterwarnings("ignore")
+
+
+
+DATA SPLITTING AND BALANCING:
+
+from sklearn.model_selection import train_test_split
+
+
+
+Machine Learning & Performance Visualisation (Precision-Recall Curve & Metrics calculation using Average Precision Score):
+
+
+import xgboost as xgb
+from sklearn.ensemble import HistGradientBoostingClassifier
+from sklearn.ensemble import StackingClassifier, RandomForestClassifier
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import accuracy_score, f1_score, confusion_matrix, classification_report
+from sklearn.metrics import precision_recall_curve, average_precision_score, auc
+from sklearn.model_selection import RandomizedSearchCV
+from sklearn.datasets import make_classification
+from tabulate import tabulate
+
+
+Saving best performing model:
+import pickle
