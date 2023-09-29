@@ -1,11 +1,15 @@
 # improving-bank-marketing-using-ML
 
 Author: Emma Tan
+
 Date: 29 Sep 2023
+
+
 
 #PROJECT SUMMARY
 
 Machine learning model training as part of Capstone Project while studying Data Science and AI at Institute of Data (Singapore).
+
 
 Context:
 
@@ -13,6 +17,7 @@ Deposit is a 1 trillion dollar market (Source: Bank of America Y2022 Annual Repo
 Among top banks in Singapore, fixed deposit account for 40% of DBS capital (Source: DBS Y2022 Annual Report).
 Getting more fixed deposit subscriber is essential for bank’s overall funding and financial stability.
 An efficient marketing strategy will result to time saved, dollar saved and higher employee morale. 
+
 
 Objective: 
 
@@ -23,6 +28,8 @@ This study aims to:
 3. Through client patterns identification, attempt to improve marketing efficiency from 50% success rate (no model, prediction of subscription through guessing).
    
 5. Obtain actionable insights from exploratory data analysis. 
+
+
 
 
 Steps to reproduce the code:
@@ -42,6 +49,7 @@ Additional documents provided:
 Refer presentation slide_Marketing Strategies Fine-tuning Using ML (final)
 
 Refer documentation_Improving Marketing Strategy Using Machine Learning_ET29SEP23
+
 
 
 Acknowledgement: 
